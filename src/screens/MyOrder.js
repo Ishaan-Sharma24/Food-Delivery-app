@@ -90,7 +90,7 @@ export default function MyOrder() {
                     <p>Loading...</p>
                 ) : orderData.order_data.length > 0 ? (
                     <div className='row'>
-                        // just to make some change
+                        // just  make some change
                         {orderData.order_data.map((itemArray, index) => (
                             <div key={index} className='col-12 col-md-6 col-lg-3'>
                                 <div className="card mt-3" style={{ width: "16rem", maxHeight: "360px" }}>
